@@ -24,7 +24,7 @@ def merge(R,L,A):
 # Calling the recursive function //
 def merge_sort(lst):
     if(len(lst)<2):
-        return
+        return lst
     m = len(lst)//2
     L = lst[:m]
     R = lst[m:]
